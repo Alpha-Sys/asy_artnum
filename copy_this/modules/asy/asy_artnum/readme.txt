@@ -5,7 +5,7 @@ asy_artnum
 1.0
 
 ### Oxid-Version ###
-4.9.0 - 5.2.x
+4.7 - 5.2
 
 ### Author ###
 Alpha-Sys
@@ -14,10 +14,10 @@ fabian.kunkler@alpha-sys.de
 www.alpha-sys.de
 
 ### Beschreibung ###
-Mit dem Modul ist es möglich eine Artikeldetailseite per Artikelnummer oder EAN in der URL aufzurufen. 
-Beispiel für Artikelnummer:
+Mit dem Modul ist es m≈°glich eine Artikeldetailseite per Artikelnummer oder EAN in der URL aufzurufen. 
+Beispiel f√ºr Artikelnummer:
 http://www.DEIN_SHOP.de/index.php?cl=details&artnum=1234
-Beispiel für EAN:
+Beispiel f√ºr EAN:
 http://www.DEIN_SHOP.de/index.php?cl=details&ean=1111
 
 

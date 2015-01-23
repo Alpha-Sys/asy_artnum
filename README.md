@@ -7,7 +7,7 @@ asy_artnum
 1.0
 
 ### Oxid-Version ###
-4.9.0 - 5.2.x
+4.7 - 5.2
 
 ### Author ###
 Alpha-Sys
