@@ -23,7 +23,7 @@ class asy_artnum__details extends asy_artnum__details_parent {
     public function getProduct()
     {
         if ($this->_oProduct === null) {
-            $oConfig = $this->getConfig();
+            $oConfig = oxRegistry::getConfig();
             $oUtils = oxRegistry::getUtils();
             $sArtNum = $oConfig->getRequestParameter('artnum');
             $sEan = $oConfig->getRequestParameter('ean');
