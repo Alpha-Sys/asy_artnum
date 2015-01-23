@@ -15,9 +15,9 @@ www.alpha-sys.de
 
 ### Beschreibung ###
 Mit dem Modul ist es mšglich eine Artikeldetailseite per Artikelnummer oder EAN in der URL aufzurufen. 
-Beispiel fŸr Artikelnummer:
+Beispiel für Artikelnummer:
 http://www.DEIN_SHOP.de/index.php?cl=details&artnum=1234
-Beispiel fŸr EAN:
+Beispiel für EAN:
 http://www.DEIN_SHOP.de/index.php?cl=details&ean=1111
 
 
