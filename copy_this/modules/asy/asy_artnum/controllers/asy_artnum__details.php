@@ -27,17 +27,18 @@ class asy_artnum__details extends asy_artnum__details_parent {
             $oUtils = oxRegistry::getUtils();
             $sArtNum = $oConfig->getRequestParameter('artnum');
             $sEan = $oConfig->getRequestParameter('ean');
-            // object is not yet loaded
-            $this->_oProduct = oxNew('oxarticle');
                 
             if(!empty($sArtNum)){
+                $this->_oProduct = oxNew('oxarticle');
                 $this->_oProduct->loadArticleByField('oxartnum', $sArtNum);
             } elseif(!empty($sEan)){
+                $this->_oProduct = oxNew('oxarticle');
                 $this->_oProduct->loadArticleByField('oxean', $sEan);
+            } else{
+                $this->_oProduct = parent::getProduct();
             }
+            
         }
-        
-        $ret = parent::getProduct();
-        return $ret;
+        return $this->_oProduct;
     }
 }
